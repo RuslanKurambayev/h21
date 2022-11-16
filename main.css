@@ -1,0 +1,361 @@
+.container {
+  font-family: 'Roboto', sans-serif;
+}
+.navbar {
+  height: 80px;
+  padding: 0 100px;
+  
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+  display: inline-block;
+  padding:0 10px;
+}
+.nav-link {
+font-size: 16px;
+font-weight: 400;
+}
+.dropdown {
+  display: none;
+}
+
+
+.hero {
+  padding:0 110px;
+  
+}
+.sector-1 {
+  display: flex;
+}
+.col-7 {
+  
+  height: 100%;
+  padding-top: 90px;
+}
+.hero__h1 {
+font-size: 40px;
+font-weight: 700;
+
+}
+
+.hero__p {
+font-size: 40px;
+font-weight: 900;
+}
+
+.hero__p2 {
+font-size: 18px;
+font-weight: 400;
+}
+
+.hero__bottom {
+  margin-top: 40px;
+}
+.btn {
+  background-color: black;
+  color: white;
+  border-radius: none;
+  margin-right: 40px;
+  
+}
+.hero__link {
+  color: black;
+  
+}
+.col-5 {
+  
+  height: 100%;
+  padding-top: 50px;
+}
+.man {
+  width: 100%;
+  
+}
+.section-1 {
+  
+  height: 150px;
+  
+  
+}
+.section-1-main {
+  margin-top: 20px;
+  width: 60%;
+  margin:20px auto;
+  height: 100%;
+  
+}
+.section__1-h1 {
+  text-align: center;
+}
+.col-3 {
+  text-align: center;
+  
+}
+.img-lorems {
+  width: 80%;
+}
+.lorem-cards {
+  display: flex;
+}
+
+
+
+
+.section-2 {
+  height: 600px;
+  /* background-color: #FF5E69; */
+  padding: 20px 80px;
+}
+.section-2-h3 {
+  font-size: 22px;
+  color: #FF5E69;
+
+}
+.section-2-p {
+  font-size: 30px;
+  font-weight: 700;
+}
+.habi {
+  height: 70%;
+  /* display: flex; */
+  
+}
+.box-1 {
+ 
+}
+.box-1-img {
+  width: 10%;
+}
+.box-1-h3 {
+font-size: 24px;
+font-weight: 700;
+}
+.box-1-p {
+font-size: 16px;
+font-weight: 400;
+}
+.box-1-h5 {
+font-size: 16px;
+font-weight: 700;
+}
+
+
+
+
+
+
+
+
+/* responsiv responsiv responsiv responsiv responsiv */
+@media screen and (max-width:1000px) {
+  .navbar {
+  height: 70px;
+  padding: 0 60px;
+  }
+  .nav-link {
+  font-size: 14px;
+  font-weight: 400;
+  }
+  .logo {
+  width: 90%;
+  }
+
+  .hero {
+  
+  padding:0 60px;
+  }
+  .col-7 {
+  
+  height: 100%;
+  padding-top: 60px;
+  }
+  .col-5 {
+  
+  height: 100%;
+  padding-top: 40px;
+  }
+  .hero__h1 {
+  font-size: 35px;
+  font-weight: 600;
+  
+  }
+  .hero__p {
+  font-size: 35px;
+  font-weight: 700;
+  }
+
+  .hero__p2 {
+  font-size: 16px;
+  font-weight: 400;
+  }
+
+  .section-2-h3 {
+  font-size: 20px;
+  color: #FF5E69;
+
+}
+.section-2-p {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+  .box-1-h3 {
+font-size: 20px;
+font-weight: 600;
+}
+.box-1-p {
+font-size: 14px;
+font-weight: 300;
+}
+.box-1-h5 {
+font-size: 14px;
+font-weight: 600;
+}
+
+}
+
+@media screen and (max-width:800px) {
+  .navbar {
+  height: 55px;
+  padding: 0 30px;
+  }
+  .nav-link {
+  font-size: 12px;
+  font-weight: 400;
+  }
+  .logo {
+  width: 80%;
+  }
+  .sector-1 {
+    flex-direction: column;
+  }
+  .col-7 {
+    width: 100%;
+  }
+  .col-5 {
+    width: 100%;
+    height: 50%;
+  }
+  .hero {
+  
+  padding:0 40px;
+  }
+  .col-7 {
+  
+  height: 100%;
+  padding-top: 50px;
+  }
+  .col-5 {
+  
+  height: 100%;
+  padding-top: 20px;
+  }
+  .section-1-main {
+  
+  width: 90%;
+  margin:0 auto;
+  height: 100%;
+  
+  }
+  .section__1-h1 {
+  text-align: center;
+  font-size: 30px;
+}
+  .lorem-cards {
+    
+  }
+
+    .section-2-h3 {
+  font-size: 19px;
+  color: #FF5E69;
+;
+}
+.section-2-p {
+  font-size: 26px;
+  font-weight: 500;
+}
+
+  .box-1-h3 {
+font-size: 19px;
+font-weight: 500;
+}
+.box-1-p {
+font-size: 13px;
+font-weight: 300;
+}
+.box-1-h5 {
+font-size: 13px;
+font-weight: 500;
+}
+}
+
+@media screen and (max-width:662px) {
+  .navbar {
+  height: 60px;
+  
+  /* padding: 0; */
+}
+
+.nav-list {
+  display: none;
+}
+.dropdown {
+  display: block;
+}
+.logo {
+  width: 70%;
+  }
+  .hero {
+    padding: 0;
+  }
+  .section-2 {
+  height: 380px;
+  
+  padding: 20px 30px;
+}
+  .section-2-h3 {
+  font-size: 20px;
+  color: #FF5E69;
+
+}
+.section-2-p {
+  font-size: 20px;
+  font-weight: 700;
+  
+}
+.habi {
+  flex-wrap: wrap;
+  
+}
+.box-1-img {
+  display: none;
+}
+box-1 {
+  
+}
+.box-1-p {
+  display: none;
+}
+
+
+}
+
+@media screen and (max-width:437px) {
+    .navbar {
+  height: 50px;
+  
+  padding: 0px;
+}
+.logo {
+  width: 60%;
+}
+
+
+
+}
+
+
+/* responsiv responsiv responsiv responsiv responsiv */
